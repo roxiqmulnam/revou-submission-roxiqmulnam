@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>eLearn</title>
+  </head>
+  <body>
+    <!-- Start Header -->
+    <header>
+      <!-- Start Nav -->
+      <nav id="navbar" class="wrapper-container">
+        <li class="logo">
+          <a href="#"><h4>eLearn.</h4></a>
+        </li>
+        <ul class="mobile-navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">Our Profile</a></li>
+          <li><a href="#">Achievement</a></li>
+          <li><a href="#">Message Us</a></li>
+        </ul>
+        <div class="btn-mobile-navbar">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </nav>
+      <div class="slider-wrap">
+        <div class="slider-main" id="slider-main">
+          <div class="items">
+            <img src="./img/1.jpg" alt="img1" />
+            <h1 class="date">01 June 2023</h1>
+            <h1 class="title">Belajar Cara Membuat Website</h1>
+          </div>
+          <div class="items">
+            <img src="./img/5.jpg" alt="img5" />
+            <h1 class="date">01 April 2023</h1>
+            <h1 class="title">Belajar Dasar Pemrograman Website</h1>
+          </div>
+          <div class="items">
+            <img src="./img/2.jpg" alt="img" />
+            <h1 class="date">20 May 2023</h1>
+            <h1 class="title">Belajar Dasar Pemrograman Javascript</h1>
+          </div>
+          <div class="items">
+            <img src="./img/4.jpg" alt="img" />
+            <h1 class="date">24 April 2023</h1>
+            <h1 class="title">Belajar Dasar Pemrograman HTML</h1>
+          </div>
+          <div class="items">
+            <img src="./img/3.jpg" alt="img" />
+            <h1 class="date">10 May 2023</h1>
+            <h1 class="title">Belajar Dasar Pemrograman CSS</h1>
+          </div>
+        </div>
+        <div class="btn-area">
+          <img onclick="prev()" class="prev" src="./img/prev.png" alt="" />
+          <img onclick="next()" class="next" src="./img/next.png" alt="" />
+        </div>
+      </div>
+      <!-- End Nav -->
+    </header>
+    <!-- End Header -->
+    <main>
+      <h1 class="wrapper-container sub-title">Our Profile</h1>
+      <div id="content" class="wrapper-container">
+        <article>
+          <div class="content_image">
+            <img src="./img/1.jpg" alt="img" />
+          </div>
+          <div class="posts">
+            <h1 class="post-title">Belajar Cara Membuat Website</h1>
+            <h4 class="post-date">01 June 2023</h4>
+            <p class="post-desc">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor a
+              quas vero doloremque nobis autem ab corporis facilis, labore
+              laboriosam, sit quidem aliquid iure placeat. Maxime dignissimos
+              hic omnis similique consequuntur necessitatibus voluptatum. Odio
+              enim eius distinctio dolore illo praesentium nostrum animi minima
+              architecto aut quae, hic nemo soluta iste dolorum pariatur
+              corporis reiciendis, eum assumenda. Impedit laboriosam earum
+              corporis?
+            </p>
+            <button class="post-btn">Continue Reading</button>
+          </div>
+        </article>
+        <article>
+          <div class="content_image">
+            <img src="./img/2.jpg" alt="img" />
+          </div>
+          <h1 class="post-title">Belajar Dasar Tentang Javascript</h1>
+          <h4 class="post-date">20 May 2023</h4>
+          <p class="post-desc">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor a
+            quas vero doloremque nobis autem ab corporis facilis, labore
+            laboriosam, sit quidem aliquid iure placeat. Maxime dignissimos hic
+            omnis similique consequuntur necessitatibus voluptatum. Odio enim
+            eius distinctio dolore illo praesentium nostrum animi minima
+            architecto aut quae, hic nemo soluta iste dolorum pariatur corporis
+            reiciendis, eum assumenda. Impedit laboriosam earum corporis?
+          </p>
+          <button class="post-btn">Continue Reading</button>
+        </article>
+        <article>
+          <div class="content_image">
+            <img src="./img/3.jpg" alt="img" />
+          </div>
+          <h1 class="post-title">Belajar Dasar Pemrograman CSS</h1>
+          <h4 class="post-date">10 May 2023</h4>
+          <p class="post-desc">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor a
+            quas vero doloremque nobis autem ab corporis facilis, labore
+            laboriosam, sit quidem aliquid iure placeat. Maxime dignissimos hic
+            omnis similique consequuntur necessitatibus voluptatum. Odio enim
+            eius distinctio dolore illo praesentium nostrum animi minima
+            architecto aut quae, hic nemo soluta iste dolorum pariatur corporis
+            reiciendis, eum assumenda. Impedit laboriosam earum corporis?
+          </p>
+          <button class="post-btn">Continue Reading</button>
+        </article>
+        <article>
+          <div class="content_image">
+            <img src="./img/4.jpg" alt="img" />
+          </div>
+          <h1 class="post-title">Belajar Dasar Pemrograman HTML</h1>
+          <h4 class="post-date">24 April 2023</h4>
+          <p class="post-desc">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor a
+            quas vero doloremque nobis autem ab corporis facilis, labore
+            laboriosam, sit quidem aliquid iure placeat. Maxime dignissimos hic
+            omnis similique consequuntur necessitatibus voluptatum. Odio enim
+            eius distinctio dolore illo praesentium nostrum animi minima
+            architecto aut quae, hic nemo soluta iste dolorum pariatur corporis
+            reiciendis, eum assumenda. Impedit laboriosam earum corporis?
+          </p>
+          <button class="post-btn">Continue Reading</button>
+        </article>
+      </div>
+
+      <section class="wrapper-container about-us">
+        <img class="about-image" src="./img/5.jpg" alt="img" />
+        <div class="desc-about-us">
+          <h1 class="sub-title">Tentang Kami</h1>
+          <p>
+            Visi: <br />
+            "Menjadi Sekolah IT terkemuka yang menghasilkan lulusan yang
+            berkualitas dan siap bersaing di dunia teknologi global."
+          </p>
+          Misi: <br />
+          <ul>
+            <li>
+              Menyediakan pendidikan yang berkualitas tinggi dan relevan dengan
+              kebutuhan industri IT.
+            </li>
+            <li>
+              Memberikan pengalaman belajar yang memperkaya dan menantang dengan
+              lingkungan belajar yang modern dan efektif.
+            </li>
+            <li>
+              Meningkatkan keterampilan dan kompetensi staf pengajar dalam
+              bidang teknologi dan metodologi pengajaran yang inovatif.
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!-- Start Footer  -->
+    <footer class="wrapper-container">Created by Roxiq | copyright 2023</footer>
+    <!-- End Footer  -->
+
+    <script src="main.js"></script>
+  </body>
+</html>
